@@ -1,0 +1,20 @@
+{
+  "name": "genius",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules ./index.mjs",
+    "pretty": "prettier --no-config ./index.mjs --write ./iodex.mjs"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "prettier": "1.12.1"
+  }
+}
